@@ -1,11 +1,13 @@
-import { ModeToggle } from "@/components/ModeToggle";
-import { Button } from "@/components/ui/button";
+import IntroSection from "@/components/home/IntroSection";
+import { MobileMenu } from "@/components/topnav/MobileMenu";
+import TopNavbar from "@/components/topnav/TopNavbar";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-       <Button>Hello</Button>
-       <ModeToggle />
+    <main className=" flex flex-col bg-red-600">
+       <TopNavbar />
+        <IntroSection />
+       <MobileMenu isNeeded />
     </main>
   );
 }
