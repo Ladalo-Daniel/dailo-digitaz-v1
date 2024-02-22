@@ -25,12 +25,6 @@ export default function AuthForm() {
       theme="dark"
       showLinks={false}
       redirectTo={`${process.env.NEXT_PUBLIC_SITE_URL!}/auth/callback`}
-      
-      providers={['google']}
-      queryParams={{
-        access_type: 'offline',
-        prompt: 'consent',
-      }}
     />
   )
 }
