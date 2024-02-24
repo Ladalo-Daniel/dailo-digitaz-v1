@@ -15,7 +15,7 @@ export function Providers({ children, ...props }: ThemeProviderProps) {
   return (
   <NextThemesProvider {...props}
       attribute="class"
-      defaultTheme="system"
+      defaultTheme="light"
       enableSystem
       disableTransitionOnChange
     >
@@ -23,7 +23,7 @@ export function Providers({ children, ...props }: ThemeProviderProps) {
 
     <NextUIProvider>
       {children}
-      <Toaster richColors position='top-right' theme='system' />
+      <Toaster richColors position='top-right' theme='light' />
     </NextUIProvider>
     </QueryClientProvider>
   </NextThemesProvider>

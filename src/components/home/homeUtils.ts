@@ -149,42 +149,42 @@ export const slidesData = [
   export const categoriesData = [
     {
       name: "Mobile Phones",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbx1.png",
       link: "#",
     },
     {
       name: "Laptop Computers",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbx1.png",
       link: "#",
     },
     {
       name: "Headsets",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbx2.png",
       link: "#",
     },
     {
       name: "Chargers",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbt1.png",
       link: "#",
     },
     {
       name: "Power Banks",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbi1.png",
       link: "#",
     },
     {
       name: "Smartwatches",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbx1.png",
       link: "#",
     },
     {
       name: "Gaming Laptops",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbx1.png",
       link: "#",
     },
     {
       name: "Bluetooth Speakers",
-      Image: "/gallery/ip1.jpg",
+      Image: "/gallery/rbx1.png",
       link: "#",
     },
     {

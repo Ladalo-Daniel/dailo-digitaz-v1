@@ -68,19 +68,6 @@ function IntroSection() {
 
         </Card>
 
-         {/* <Card className=' md:hidden flex flex-row bg-transparent relative overflow-auto'>
-            <div className=' flex flex-row gap-3'>
-
-            {slidesData.map((slide, idx) => (
-                <div key={idx} className=' flex flex-row  w-[80vw] '>
-                    <AspectRatio ratio={16/9}>
-                        <Image src={slide.image} height={100} width={100} quality={100} alt='slides image' className=' object-cover w-[80vw]' />
-                    </AspectRatio>
-                </div>
-            ))}
-
-            </div>
-        </Card> */}
       </div>
     </MaxWrapper>
   )

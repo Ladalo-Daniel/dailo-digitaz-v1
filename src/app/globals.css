@@ -27,7 +27,7 @@
     --radius: 0.5rem;
   }
 
-  .dark {
+  dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
     --card: 0 0% 3.9%;
@@ -72,16 +72,18 @@
     background: red;
   }
 
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: red;
+  .custom-scrollbar-track::-webkit-scrollbar-thumb {
+    background: rgb(212, 59, 59);
     border-radius: 50px;
+    height: 2px;
+    width: 2px;
   }
 
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: red;
   }
   .custom-scrollba::-webkit-scrollbar {
-    background: rgb(240, 80, 44);
+    background: rgb(202, 194, 193);
     width: 5px;
     height: 5px;
     border-radius:50%;
