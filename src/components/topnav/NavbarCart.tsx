@@ -18,12 +18,12 @@ export function NavbarCart() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="outline" className=" flex flex-row h-[35px] w-[90px]  gap-2 items-center ring-1 ring-red-100">
+        <div  className=" flex flex-row h-[35px] gap-2 items-center  ring-white cursor-pointer">
           <Badge content="5" color="danger" placement="top-right" size='sm'>
            <ShoppingCart size={18} className=" text-gray-600" />
           </Badge>
           <span className=" text-gray-600">Cart</span>
-        </Button>
+        </div>
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
