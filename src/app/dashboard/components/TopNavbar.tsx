@@ -29,6 +29,9 @@ const TopNavbar = async () => {
           <Avatar src={profile?.data?.image_url || ""} size='sm' name={profile?.data?.username || ""} color='primary' />
         </Link>
         <h1 className=' text-slate-800 text-nowrap cursor-pointer mr-2 md:mr-4'>Hi, {profile?.data?.username || "Guest"}</h1>
+        <div className=' ring-1 ring-red-300 cursor-pointer rounded-md p-1 mr-2 md:mr-4'>
+          <Link href="/sign-up">{ profile ? " Signout" : "signup"}</Link>
+        </div>
         <NavbarCart />
       </div>
 
